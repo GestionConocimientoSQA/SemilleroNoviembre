@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/daniela/Matrices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/daniela/MatrizClase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/daniela/CiclosyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daniela/CiclosyArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/daniela/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/daniela/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

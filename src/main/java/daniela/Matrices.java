@@ -13,14 +13,12 @@ public class Matrices {
         matriz[1][1] = 2;
         matriz[1][2] = 3;
 
-        //Conocer la longitud de las filas que siempre serán constantes
-        int longitudFilas = matriz.length;
+        MatrizClase datosMatriz = new MatrizClase(matriz);
 
-        //El primer for recorre las filas
-        for (int fila=0; fila<longitudFilas; fila++){
-            for (int columna=0; columna<matriz[fila].length; columna++){
-                System.out.println(matriz[fila][columna]);
-            }
-        }
+        //Conocer la longitud de las filas que siempre serán constantes
+        int longitudFilas = datosMatriz.contarFilas();
+
+        datosMatriz.imprimirInformacion(longitudFilas);
+
     }
 }
