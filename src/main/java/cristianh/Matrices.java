@@ -13,13 +13,12 @@ public class Matrices {
         matriz[1][1]=2;
         matriz[1][2]=3;
 
-        int longitudFilas= matriz.length;
+        MatrizClass datosmatriz= new MatrizClass(matriz);
 
-        for(int f=0;f< longitudFilas;f++){
-            for (int c=0; c < matriz[f].length;c++){
-                System.out.println(matriz[f][c]);
-            }
-        }
+
+        int longitudFilas= datosmatriz.contarFilas();
+
+        datosmatriz.verMatriz(longitudFilas);
 
 
     }
