@@ -14,7 +14,7 @@ public class Matrices {
         datos [1][1] = 5;
         datos [1][2] = 6;
 
-        ClaseyObjetos instancia = new ClaseyObjetos(datos);
+        Constructor_metodos instancia = new Constructor_metodos(datos);
 
         int longitudFilas = instancia.contarFilas();
 

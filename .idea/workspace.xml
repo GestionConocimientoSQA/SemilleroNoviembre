@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/ClaseyObjetos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Constructor_metodos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +44,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2Xaz0VBjIloYSDIeyf07iLEQqrw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -53,6 +55,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Daniel",
     "last_opened_file_path": "C:/Users/SQA/Semillero/SemilleroNoviembre"
   }

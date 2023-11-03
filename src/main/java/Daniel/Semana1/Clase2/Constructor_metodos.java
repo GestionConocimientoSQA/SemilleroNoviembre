@@ -1,11 +1,11 @@
 package Daniel.Semana1.Clase2;
 
-public class ClaseyObjetos {
+public class Constructor_metodos {
 
     int datos[][];
 
     //Inicializar datos
-    public ClaseyObjetos(int[][] datos) {
+    public Constructor_metodos(int[][] datos) {
         this.datos = datos;
     }
 
