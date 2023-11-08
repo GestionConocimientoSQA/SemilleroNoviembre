@@ -12,6 +12,7 @@ public class Perro extends Animal{
 
 
 
+    @Override
     public void saluda(){
         System.out.println("Gua Gua!!");
         super.saluda();
