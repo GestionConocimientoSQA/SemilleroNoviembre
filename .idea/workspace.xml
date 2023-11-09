@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana2/Clase3/Concesionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana2/Clase3/Inicio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana2/Clase3/Vehiculos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/ClaseyObjetos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Constructor_metodos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Matrices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Daniel/Semana1/Clase2/Matrices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,54 @@
     "last_opened_file_path": "C:/Users/SQA/Semillero/SemilleroNoviembre"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Inicio">
+    <configuration name="Inicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daniel.Semana2.Clase3.Inicio" />
+      <module name="Sesion1Jaa.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Daniel.Semana2.Clase3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daniel.Semana2.Clase3.Main" />
+      <module name="Sesion1Jaa.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Daniel.Semana2.Clase3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hombre" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Daniel.Semana2.Clase3.hombre" />
+      <module name="Sesion1Jaa.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Daniel.Semana2.Clase3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Inicio" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.hombre" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
