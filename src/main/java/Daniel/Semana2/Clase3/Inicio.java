@@ -13,7 +13,7 @@ public class Inicio {
         if(condicional.equalsIgnoreCase("Si")){
             carro.marca();
         }else{
-            System.out.println("Lo lamentamos, sin un verhiculo comprado no se puede continuar con la solicitud, gracias.");
+            System.out.println("Lo lamentamos, sin un vehiculo comprado no se puede continuar con la solicitud, gracias.");
         }
 
     }
