@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pageObject/HomePagePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pageObject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/HomePageSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/runners/PlaySongRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/runners/SpotifyRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/stepDefinitions/LoginSpotifyStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/stepDefinitions/PlaySongSpotifyStepDef.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginSpotify.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PlaySongSpotify.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spotify/runners/PlaySongRunner.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
