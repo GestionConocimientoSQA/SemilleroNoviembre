@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cristianh/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cristianh/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cristianh/HerenciaPolimorfismo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cristianh/Perro.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cristianh/Gato.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cristianh/Gato.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cristianh/HerenciaPolimorfismo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cristianh/HerenciaPolimorfismo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cristianh/Perro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cristianh/Perro.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +42,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;cristianh&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.excludes&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "cristianh",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Application.HerenciaPolimorfismo">
     <configuration name="HerenciaPolimorfismo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cristianh.HerenciaPolimorfismo" />

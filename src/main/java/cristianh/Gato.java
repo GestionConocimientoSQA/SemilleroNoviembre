@@ -14,7 +14,6 @@ public class Gato extends Animal{
     @Override
     public void saluda(){
         System.out.println("Miau!!");
-        super.saluda();
     }
 
     public String getRaza() {
