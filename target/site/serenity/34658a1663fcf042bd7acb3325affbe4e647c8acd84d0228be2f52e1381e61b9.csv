@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login Spotify","Login successfully in Spotify","SUCCESS","2023-11-16T16:48:43.806065-05:00[America/Bogota]","0.0","15.8"
+"Playing Song on Spotify","Play a Song Successfully on Spotify","PENDING","2023-11-16T16:47:03.5112599-05:00[America/Bogota]","0.0","13.29"
