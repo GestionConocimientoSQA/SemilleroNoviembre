@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login Spotify","Login successfully in Spotify","PENDING","2023-11-14T18:26:52.3591851-05:00[America/Bogota]","0.0","0.33"
+"Login Spotify","Login successfully in Spotify","SUCCESS","2023-11-15T19:10:18.701242-05:00[America/Bogota]","0.0","59.36"
+"Play song on Spotify","Play song on Spotify with user logged","PENDING","2023-11-14T19:02:35.2906866-05:00[America/Bogota]","0.0","0.17"
