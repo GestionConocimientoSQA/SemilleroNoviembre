@@ -18,12 +18,12 @@ public class LoginSteps {
     LoginPage loginPage;
 
     @Step
-    public void sendCredencials(){
+    public void sendCredencials(String user, String pssw){
         loginPage.getDriver().findElement(loginPage.getTxtUserName())
-                .sendKeys("user@mail.com");
+                .sendKeys(user);
 
         loginPage.getDriver().findElement(loginPage.getTxtPassword())
-                .sendKeys("1234");
+                .sendKeys(pssw);
     }
 
     @Step
