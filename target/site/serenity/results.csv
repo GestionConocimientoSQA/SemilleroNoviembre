@@ -1,4 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login Spotify","Login successfully in Spotify","PENDING","2023-11-15T19:28:21.7772087-05:00[America/Bogota]","0.0","0.27"
-"Login Spotify","Login successfully in Spotify","SUCCESS","2023-11-15T23:27:51.0781081-05:00[America/Bogota]","0.0","21.16"
-"Play song","Play song successfully in Spotify","PENDING","2023-11-15T19:30:19.174798-05:00[America/Bogota]","0.0","0.39"
+"Login Spotify","Login successfully in Spotify","PENDING","2023-11-16T18:48:20.63032-05:00[America/Bogota]","0.0","0.26"
+"Login Spotify","Login successfully in Spotify","SUCCESS","2023-11-16T19:25:31.2248162-05:00[America/Bogota]","0.0","157.63"
+"Play song","Play song successfully in Spotify","SUCCESS","2023-11-16T23:10:40.0327449-05:00[America/Bogota]","0.0","41.99"

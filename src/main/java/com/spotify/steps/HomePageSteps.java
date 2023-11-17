@@ -9,13 +9,13 @@ public class HomePageSteps {
     @Page
     HomePagePage paginaInicialPage;
 
-    @Step
+    @Step("Abrir pagina Spotify")
     public void openTheBrowser(){
 
         paginaInicialPage.openUrl("https://www.spotify.com/co-es/premium");
     }
 
-    @Step
+    @Step("Click en el boton pagina iniciar sesion")
     public void clickSignUp(){
 
         paginaInicialPage.getDriver().findElement(paginaInicialPage.getBTN_INICIOSESION()).click();

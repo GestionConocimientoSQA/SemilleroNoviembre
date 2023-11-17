@@ -9,14 +9,14 @@ public class LoginPageSteps {
     @Page
     LoginPagePage loginPagePage;
 
-    @Step
+    @Step("digitar credenciales")
 
-    public void writterCredentials(){
-        loginPagePage.getDriver().findElement(loginPagePage.getTXT_USUARIO()).sendKeys("daniel.duarte@sqasa.co");
-        loginPagePage.getDriver().findElement(loginPagePage.getTXT_CONTRASENA()).sendKeys("Sqa1014283113");
+    public void writterCredentials(String User, String Password){
+        loginPagePage.getDriver().findElement(loginPagePage.getTXT_USUARIO()).sendKeys(User);
+        loginPagePage.getDriver().findElement(loginPagePage.getTXT_CONTRASENA()).sendKeys(Password);
     }
 
-    @Step
+    @Step("click en iniciar sesion")
     public void click_SignUp(){
         loginPagePage.getDriver().findElement(loginPagePage.getBTN_INICIARSESION()).click();
     }
