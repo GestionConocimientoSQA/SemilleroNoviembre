@@ -21,13 +21,14 @@ public class SpotifyLoginStepDefinitions {
     public void haceClickEnElBotonLogin() {
         paginainicialsteps.clickLogin();
     }
-    @Dado("el usuario ingresa sus credenciales cahernandez34@misena.edu.co 5051Crusto2009$")
-    public void elUsuarioIngresaSusCredencialesCahernandez34MisenaEduCo5051Crusto2009$() {
-
+    @Dado("el usuario ingresa sus credenciales {string} {string}")
+    public void elUsuarioIngresaSusCredenciales(String usuario, String password) {
+        loginsteps.ingresarCredenciales(usuario,password);
     }
+
     @Cuando("da click en inicio de sesion")
     public void daClickEnInicioDeSesion() {
-
+        loginsteps.clicklogin();
     }
     @Entonces("puede visualizar el boton de perfil.")
     public void puedeVisualizarElBotonDePerfil() {

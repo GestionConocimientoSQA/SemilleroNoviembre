@@ -10,10 +10,10 @@ public class LoginSteps {
     LoginPage loginPage;
 
     @Step
-    public void ingresarCredenciales(){
-        loginPage.getDriver().findElement(loginPage.getTxtUserName()).sendKeys("cahernandez34@misena.edu.co");
+    public void ingresarCredenciales(String usuario,String password){
+        loginPage.getDriver().findElement(loginPage.getTxtUserName()).sendKeys(usuario);
 
-        loginPage.getDriver().findElement(loginPage.getTxtPassword()).sendKeys("5051Crusto2009$");
+        loginPage.getDriver().findElement(loginPage.getTxtPassword()).sendKeys(password);
 
     }
 
