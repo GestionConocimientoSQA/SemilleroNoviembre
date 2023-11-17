@@ -2,6 +2,7 @@ package com.spotify.stepDefinitions;
 
 import com.spotify.steps.LoginSteps;
 import com.spotify.steps.PaginaInicialSteps;
+import com.spotify.steps.PerfilPageSteps;
 import io.cucumber.java.es.*;
 import net.thucydides.core.annotations.Steps;
 
@@ -12,6 +13,9 @@ public class SpotifyLoginStepDefinitions {
 
     @Steps
     LoginSteps loginsteps;
+
+    @Steps
+    PerfilPageSteps perfilpagesteps;
 
     @Dado("que el usuario abre el navegador")
     public void queElUsuarioAbreElNavegador() {
@@ -32,6 +36,6 @@ public class SpotifyLoginStepDefinitions {
     }
     @Entonces("puede visualizar el boton de perfil.")
     public void puedeVisualizarElBotonDePerfil() {
-
+        perfilpagesteps.validarPerfil();
     }
 }
