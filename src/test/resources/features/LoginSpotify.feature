@@ -12,7 +12,7 @@ Característica: Inicio de Sesion Spotify
     Entonces puede visualizar el boton de perfil.
     Ejemplos:
       | usuario                    | password      |
-      |cahernandez34@misena.edu.co | 5051Crusto2009$ |
+      |cahernandez34@misena.edu.co | 5250Crusto2009$ |
 
 
 
