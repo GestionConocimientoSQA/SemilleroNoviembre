@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0de7e1e5-c4c5-4772-a6be-2eb64e800b29" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pageObject/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/pageObject/PaginaInicialPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/LoginSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spotify/steps/PaginaInicialSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/spotify/stepDefinitions/SpotifyLoginStepDefinitions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginSpotify.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginSpotify.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0cfe08f6ab4adb1e3018016c3472198ef9f1644c6fc8d632fdddaea2bb9038ae.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/434c0409a220a0687adfe476a811bfd25ffbeb9dc029cbd062fe3972075d0d5b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/434c0409a220a0687adfe476a811bfd25ffbeb9dc029cbd062fe3972075d0d5b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5698da923f295f46ce5ab64ced2311fc60caa4e36b32112606d3adcfdce3f60b.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5de8ebdc3015ede3cfa9e98b059c459789504c00fc17a3c93c82ac7124e1a22a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5de8ebdc3015ede3cfa9e98b059c459789504c00fc17a3c93c82ac7124e1a22a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5fa98e0afabc3a3e57c06a491966337e5d59e30f4ad4a97825f55092182d45d2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/653dc6ce0d94c285f86e66b517dd28b677462673e1a95e4bac49f25ac264484b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6563b58e0bfb6913afdc5920c0a6629c5c822b617dcdedce8273751861ce9061.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6563b58e0bfb6913afdc5920c0a6629c5c822b617dcdedce8273751861ce9061.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8e393a1a0444124f89c0baa28f3f92abc9e140c8ce9765a4e26d1f22dd83cac1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8e393a1a0444124f89c0baa28f3f92abc9e140c8ce9765a4e26d1f22dd83cac1.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-edge.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/e46b6c1d18768d17c446b22c1e706371d52d6be6b7a6cb1a3882bbb3e0919be8.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/e46b6c1d18768d17c446b22c1e706371d52d6be6b7a6cb1a3882bbb3e0919be8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +79,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HerenciaPolimorfismo">
+  <component name="RunManager" selected="Gradle.SpotifyRunner">
     <configuration name="HerenciaPolimorfismo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cristianh.HerenciaPolimorfismo" />
       <module name="Sesion1Jaa.main" />
@@ -89,6 +106,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpotifyRunner" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;com.spotify.runners.SpotifyRunner&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="SemilleroNoviembre" />
       <method v="2">
@@ -104,6 +145,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SpotifyRunner" />
+        <item itemvalue="Application.Matrices" />
+        <item itemvalue="Application.HerenciaPolimorfismo" />
         <item itemvalue="Application.HerenciaPolimorfismo" />
         <item itemvalue="Application.Matrices" />
       </list>
