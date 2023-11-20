@@ -29,7 +29,7 @@ public class LoginSteps {
     @Step
     public void clickLogin(){
         loginPage.getDriver().findElement(loginPage.getBtnLogin())
-                .click();
+                .getText();
 
     }
 }
