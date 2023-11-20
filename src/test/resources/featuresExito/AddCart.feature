@@ -1,6 +1,7 @@
 Feature: Add cart
-  Scenario:
-    Given User clicks on the search button
-    And the user enters the song  to play
-    When User selects the most relevant option and clicks the play button
-    Then User can view the playback
+  Scenario: Add a product from the Exito store to the cart
+    Given User clicks on the category dropdown menu
+    And select any subcategory of the product
+    When User adds any product to cart
+    And click the my cart button
+    Then User will be able to view the product in the shopping cart

@@ -1,0 +1,79 @@
+<html lang='en'><head><link href='prism/prism.css' rel='stylesheet' /></head><body><script src='prism/prism.js'></script><body><div><pre><code class='language-html'>&lt;html id="app" lang="es" dir="ltr"&gt;<br/>
+ &lt;head&gt; <br/>
+  &lt;meta charset="utf-8"&gt; <br/>
+  &lt;title&gt;Iniciar sesión - Spotify&lt;/title&gt; <br/>
+  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"&gt; <br/>
+  &lt;base href="/"&gt; <br/>
+  &lt;link rel="icon" href="https://accounts.scdn.co/sso/images/favicon.ace4d8543bbb017893402a1e9d1ac1fa.ico"&gt; <br/>
+  &lt;script defer src="https://accounts.scdn.co/sso/js/indexReact.af548cc5c1e9149b8242.js" sp-bootstrap=""&gt;&lt;/script&gt; <br/>
+  &lt;meta id="bootstrap-data" sp-bootstrap-data="{&quot;phoneFeatureEnabled&quot;:true,&quot;previewEnabled&quot;:false,&quot;user&quot;:false,&quot;tpaState&quot;:&quot;AQAmA9Kjnfchbs7EtesV+nwP0IS8cqxsh6dkap/6vXqnYtru2jdKp6IlXrMWs0k7yoWLOl9yMY/N0ZgQweCONhpxke1vfu/Vb1C1Dn0099fqaEm+uzEX+80hHxxYE5n4AC0yR3YZoIVxIJAxZM1tMpDIN2csj7kOOqpfAlhPY3CCKee3LY6u3UWjFb13AIH1ppsuas8M/FQXue7EcxRsg0AjBgbklpH0+C2r3ZvIks+2tqALlvzmzMjiGK91onJ2gEYGKf0uqoWNoZlQZ38zE/d/MrUv+yJwRmOwiFBNuOAoRwJiMI10dlI=&quot;,&quot;geoLocationCountryCode&quot;:&quot;CO&quot;,&quot;state&quot;:&quot;&quot;,&quot;flowCtx&quot;:&quot;71f5b970-bea9-43d1-bab7-90f747c16e8d:1700218048&quot;,&quot;BON&quot;:[&quot;0&quot;,&quot;0&quot;,2013390082]}" sp-component="login" sp-translations-data="eyJlcnJvclRpdGxlIjoiRXJyb3IiLCJsb2dpblRpdGxlIjoiSW5pY2lhciBzZXNpw7NuIiwiZm9yZ290WW91clBhc3N3b3JkVXNlcm5hbWUiOiLCv0hhcyBvbHZpZGFkbyB0dSBjb250cmFzZcOxYT8iLCJkb250SGF2ZUFuQWNjb3VudCI6IsK/Tm8gdGllbmVzIGN1ZW50YT8iLCJpbnB1dFVzZXJuYW1lIjoiQ29ycmVvIGVsZWN0csOzbmljbyBvIG5vbWJyZSBkZSB1c3VhcmlvIiwiaW5wdXRFbWFpbE9yVXNlcm5hbWUiOiJFbWFpbCBvIG5vbWJyZSBkZSB1c3VhcmlvIiwiaW5wdXRQYXNzd29yZCI6IkNvbnRyYXNlw7FhIiwiY2hlY2tib3hSZW1lbWJlck1lIjoiUmVjb3JkYXJtZSIsImVycm9yRm9ybURlZmF1bHQiOiLCoVZheWEhIEFsZ28gc2FsacOzIG1hbC4gSW50w6ludGFsbyBkZSBudWV2byBvIHZpc2l0YSBudWVzdHJhIDxoZWxwTGluaz5zZWNjacOzbiBkZSBheXVkYTwvaGVscExpbms+LiIsImVycm9ySW52YWxpZENyZWRlbnRpYWxzIjoiTm9tYnJlIGRlIHVzdWFyaW8gbyBjb250cmFzZcOxYSBpbmNvcnJlY3Rvcy4iLCJlcnJvckludmFsaWRDcmVkZW50aWFsc0ltcHJvdmVkIjoiTGEgZGlyZWNjacOzbiBkZSBlbWFpbCwgZWwgbm9tYnJlIGRlIHVzdWFyaW8gbyBsYSBjb250cmFzZcOxYSBzb24gaW5jb3JyZWN0b3MuIiwiZXJyb3JVbmtub3duIjoiwqFWYXlhISBBbGdvIHNhbGnDsyBtYWwuIEludMOpbnRhbG8gZGUgbnVldm8gbyB2aXNpdGEgbnVlc3RyYSA8aGVscExpbms+c2VjY2nDs24gZGUgYXl1ZGE8L2hlbHBMaW5rPi4iLCJlcnJvclRyYW5zaWVudCI6IkhhIG9jdXJyaWRvIHVuIGVycm9yIGFsIGluaWNpYXIgc2VzacOzbi4gSW50ZW50YSBkZSBudWV2by4iLCJlcnJvckZhY2Vib29rQWNjb3VudCI6Ik5vIHRpZW5lcyB1bmEgY3VlbnRhIGRlIFNwb3RpZnkgY29uZWN0YWRhIGEgdHUgY3VlbnRhIGRlIEZhY2Vib29rLiBTaSB0aWVuZXMgdW5hIGN1ZW50YSBkZSBTcG90aWZ5LOKAgmluaWNpYSBzZXNpw7NuIGNvbiB0dXMgY3JlZGVuY2lhbGVzIGRlIFNwb3RpZnkuIFNpIG5vIHRpZW5lcyB1bmEgY3VlbnRhIGRlIFNwb3RpZnksIDxsaW5rV2l0aEhyZWY+cmVnw61zdHJhdGU8L2xpbmtXaXRoSHJlZj4uIiwiZXJyb3JTZXJ2ZXJFcnJvciI6IkhhIG9jdXJyaWRvIHVuIGVycm9yIGFsIHByb2Nlc2FyIHR1IHNvbGljaXR1ZC4gUG9yIGZhdm9yLCBpbnTDqW50YWxvIGRlIG51ZXZvLiIsImVycm9yVXNlcm5hbWVSZXF1aXJlZCI6IkluZ3Jlc2EgdHUgbm9tYnJlIGRlIHVzdWFyaW8gZGUgU3BvdGlmeSBvIHR1IGRpcmVjY2nDs24gZGUgY29ycmVvIGVsZWN0csOzbmljby4iLCJlcnJvclVzZXJuYW1lSW52YWxpZENoYXJhY3RlcnMiOiJFbCBub21icmUgZGUgdXN1YXJpbyB0aWVuZSBjYXJhY3RlcmVzIG5vIHBlcm1pdGlkb3M6IHtmb3JiaWRkZW5DaGFyc30uIiwiZXJyb3JQYXNzd29yZFJlcXVpcmVkIjoiUG9yIGZhdm9yIGludHJvZHVjZSB0dSBjb250cmFzZcOxYS4iLCJlcnJvck5vSW50ZXJuZXRDb25uZWN0aXZpdHkiOiJIYXkgdW4gcHJvYmxlbWEgZGUgY29uZXhpw7NuLiBWZXJpZmljYSB0dSBjb25leGnDs24gYSBJbnRlcm5ldCBlIHt0cnlBZ2Fpbkxpbmt9LiIsImVycm9yVHJ5QWdhaW4iOiJJbnRlbnRhciBkZSBudWV2byIsImxvZ0luIjoiSW5pY2lhciBTZXNpw7NuIiwibG9nSW5Ub1Nwb3RpZnkiOiJJbmljaWEgc2VzacOzbiBlbiBTcG90aWZ5Iiwic2lnblVwRm9yU3BvdGlmeSI6IlJlZ8Otc3RyYXRlIGVuIFNwb3RpZnkiLCJvciI6Im8iLCJsb2dpblRvQ29udGludWUiOiJQYXJhIGNvbnRpbnVhciwgaW5pY2lhIHNlc2nDs24gZW4gU3BvdGlmeS4iLCJlcnJvclZhbGlkYXRpb25JbnZhbGlkQ29kZSI6IkVzdGUgY8OzZGlnbyBubyBlcyB2w6FsaWRvLiBWZXJpZmljYSBlbCBTTVMgeSB2dWVsdmUgYSBpbnRlbnRhcmxvLiIsImVycm9yU3VibWl0VG9va1Rvb0xvbmdUb0NyZWF0ZSI6IlR1IHNvbGljaXR1ZCB0YXJkw7MgZGVtYXNpYWRvIHRpZW1wbyBlbiBjb21wbGV0YXJzZS4gVnVlbHZlIGEgaW50ZW50YXJsby4iLCJlcnJvckFwcGxlQWNjb3VudCI6Ik5vIHRpZW5lcyB1bmEgY3VlbnRhIGRlIFNwb3RpZnkgY29uZWN0YWRhIGEgdHUgQXBwbGUgSUQuIFNpIHRpZW5lcyB1bmEgY3VlbnRhIGRlIFNwb3RpZnksIGluaWNpYSBzZXNpw7NuIGNvbiB0dSBlbWFpbCBvIHR1IG5vbWJyZSBkZSB1c3VhcmlvIGRlIFNwb3RpZnkuIFNpIG5vIHRpZW5lcyB1bmEgY3VlbnRhIGRlIFNwb3RpZnksIHJlZ8Otc3RyYXRlLiIsImNvbnRpbnVlV2l0aEFwcGxlIjoiQ29udGludWFyIGNvbiBBcHBsZSIsImNvbnRpbnVlV2l0aEZhY2Vib29rIjoiQ29udGludWFyIGNvbiBGYWNlYm9vayIsImNvbnRpbnVlV2l0aFBob25lTnVtYmVyIjoiQ29udGludWFyIGNvbiBuw7ptZXJvIGRlIHRlbMOpZm9ubyIsImNvbnRpbnVlV2l0aEdvb2dsZSI6IkNvbnRpbnVhciBjb24gR29vZ2xlIiwiZXJyb3JHb29nbGVBY2NvdW50IjoiTm8gaGF5IG5pbmd1bmEgY3VlbnRhIGRlIFNwb3RpZnkgY29uZWN0YWRhIGEgdHUgY3VlbnRhIGRlIEdvb2dsZS4gU2kgdGllbmVzIGN1ZW50YSBkZSBTcG90aWZ5LCBwcnVlYmEgYSBpbmljaWFyIHNlc2nDs24gY29uIHR1IGNvcnJlbyBlbGVjdHLDs25pY28gbyBub21icmUgZGUgdXN1YXJpbyBkZSBTcG90aWZ5LiBTaSBubyB0aWVuZXMgY3VlbnRhIGRlIFNwb3RpZnksIHJlZ8Otc3RyYXRlLiIsInJlY2FwdGNoYUxlZ2FsTm90aWNlIjoiRXN0ZSBzaXRpbyBlc3TDoSBwcm90ZWdpZG8gcG9yIHJlQ0FQVENIQSB5IHNlIGFwbGljYW4gbGEgPGdvb2dsZVByaXZhY3lQb2xpY3lMaW5rPlBvbMOtdGljYSBkZSBQcml2YWNpZGFkPC9nb29nbGVQcml2YWN5UG9saWN5TGluaz4geSBsb3MgPGdvb2dsZVRlcm1zTGluaz5Uw6lybWlub3MgZGUgU2VydmljaW88L2dvb2dsZVRlcm1zTGluaz4gZGUgR29vZ2xlLiIsImxvZ2luV2l0aG91dFBhc3N3b3JkIjoiSW5pY2lhciBzZXNpw7NuIHNpbiBjb250cmFzZcOxYSJ9"&gt; <br/>
+  &lt;style&gt;<br/>
+    body {<br/>
+      background-color: #121212;<br/>
+      margin: 0;<br/>
+    }<br/>
+    #root {<br/>
+      min-height: 100vh;<br/>
+    }<br/>
+    .loading-indicator-container {<br/>
+      height: 100vh;<br/>
+      display: flex;<br/>
+      justify-content: center;<br/>
+      align-items: center;<br/>
+    }<br/>
+    .loading-indicator-container * {<br/>
+      box-sizing: border-box;<br/>
+    }<br/>
+    .loading-indicator {<br/>
+      content: "";<br/>
+      width: 56px;<br/>
+      inline-size: 56px;<br/>
+      block-size: 12.4px;<br/>
+      height: 12.4px;<br/>
+      overflow-clip-margin: content-box;<br/>
+      overflow: hidden;<br/>
+    }<br/>
+    .loading-indicator circle {<br/>
+      fill: white;<br/>
+      animation: loading-indicator-kf 1.32s linear infinite;<br/>
+      transform-origin: center center;<br/>
+      opacity: 0.5;<br/>
+    }<br/>
+    .loading-indicator circle:nth-of-type(2) {<br/>
+      animation-delay: 0.1s;<br/>
+    }<br/>
+    .loading-indicator circle:nth-of-type(3) {<br/>
+      animation-delay: 0.2s;<br/>
+    }<br/>
+    @keyframes loading-indicator-kf {<br/>
+      0% {<br/>
+        animation-timing-function: cubic-bezier(1, 0, 0.7, 1);<br/>
+        opacity: 0.5;<br/>
+        transform: scale(1);<br/>
+      }<br/>
+      40% {<br/>
+        animation-timing-function: cubic-bezier(0.3, 0, 0, 1);<br/>
+        opacity: 0.75;<br/>
+        transform: scale(1.3);<br/>
+      }<br/>
+      72.5% {<br/>
+        animation-timing-function: linear;<br/>
+        opacity: 0.5;<br/>
+        transform: scale(1);<br/>
+      }<br/>
+      100% {<br/>
+        opacity: 0.5;<br/>
+        transform: scale(1);<br/>
+      }<br/>
+    }<br/>
+  &lt;/style&gt; <br/>
+ &lt;/head&gt; <br/>
+ &lt;body&gt; <br/>
+  &lt;div id="root"&gt; <br/>
+   &lt;div class="loading-indicator-container"&gt; <br/>
+    &lt;svg class="loading-indicator" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewbox="0 0 1 100" xml:space="preserve" role="progressbar" aria-valuetext="Loading"&gt; &lt;circle stroke="none" cx="-140" cy="50" r="32"&gt;&lt;/circle&gt; &lt;circle stroke="none" cx="0" cy="50" r="32"&gt;&lt;/circle&gt; &lt;circle stroke="none" cx="140" cy="50" r="32"&gt;&lt;/circle&gt; <br/>
+    &lt;/svg&gt; <br/>
+   &lt;/div&gt; <br/>
+  &lt;/div&gt; <br/>
+ &lt;/body&gt;<br/>
+&lt;/html&gt;</code></pre></div></body></html>
