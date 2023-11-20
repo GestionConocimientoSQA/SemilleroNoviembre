@@ -37,7 +37,7 @@ public class LoginSpotifyStepDef {
     }
     @When("User insert credentials {string} {string} and click on login")
     public void userInsertCredentialsAndClickOnLogin(String user, String pssw) {
-        loginSteps.sendCredencials(user,pssw);
+        loginSteps.sendCredencials();
         loginSteps.clickLogin();
     }
     @Then("User can view the profile button")

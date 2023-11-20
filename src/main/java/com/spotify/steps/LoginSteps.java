@@ -5,8 +5,12 @@ package com.spotify.steps;
  */
 
 import com.spotify.pageObject.LoginPage;
+import com.spotify.utils.Data;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
+
+import java.util.ArrayList;
+import java.util.Map;
 
 /**
  * @autor Rafael Chica
@@ -18,12 +22,14 @@ public class LoginSteps {
     LoginPage loginPage;
 
     @Step
-    public void sendCredencials(String user, String pssw){
+    public void sendCredencials(){
+        ArrayList<Map<String, String>> credenciales = Data.extractTo();
+
         loginPage.getDriver().findElement(loginPage.getTxtUserName())
-                .sendKeys(user);
+                .sendKeys(credenciales.get(0).get("Usuario"));
 
         loginPage.getDriver().findElement(loginPage.getTxtPassword())
-                .sendKeys(pssw);
+                .sendKeys(credenciales.get(0).get("Clave"));
     }
 
     @Step
