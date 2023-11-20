@@ -10,13 +10,10 @@ public class LoginSteps {
     LoginPage loginPage;
 
     @Step
-    public void sendCredentials(){
+    public void sendCredentials(String user, String pass){
         loginPage.getDriver().findElement(loginPage.getTxtUserName()).
-                sendKeys(
-                "danielasegoviaperdomo@gmail.com"
-        );
-        loginPage.getDriver().findElement(loginPage.getTxtPass()).
-                sendKeys("daniela1998");
+                sendKeys(user);
+        loginPage.getDriver().findElement(loginPage.getTxtPass()).sendKeys(pass);
     }
 
     @Step

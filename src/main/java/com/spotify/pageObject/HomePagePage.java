@@ -10,4 +10,5 @@ public class HomePagePage extends PageObject {
     public By getBtnInicioSesion() {
         return btnInicioSesion;
     }
+
 }
