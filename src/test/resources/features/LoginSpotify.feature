@@ -3,7 +3,6 @@
 Característica: Inicio de Sesion Spotify
   Como usuario quiero loguearme en Spotify para reproducir una cancion
 
-
   Esquema del escenario: Inicio de sesion exitoso en Spotify
     Dado que el usuario abre el navegador
     Y hace click en el boton login
@@ -13,7 +12,6 @@ Característica: Inicio de Sesion Spotify
     Ejemplos:
       | usuario                    | password      |
       |cahernandez34@misena.edu.co | 5250Crusto2009$ |
-
 
 
 #Feature: Login Spotify
