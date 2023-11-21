@@ -10,13 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import static net.serenitybdd.core.Serenity.getDriver;
 
-public class ShoppingCartPageSteps{
+public class ShoppingCartPageSteps {
+
 
     @Page
     ShoppingCartPagePage shoppingCartPagePage;
 
 
-    @Step("Validar exitencia dle producto en el carrito de commpras")
+    @Step("Validar existencia del producto en el carrito de compras")
     public void validateProductoInShoppingCart(){
         WebDriverWait espera = new WebDriverWait(getDriver(), Duration.ofSeconds(20));
         espera.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(shoppingCartPagePage.getLABEL_NAMEPRODUCT2()));

@@ -1,20 +1,26 @@
 package com.exito.steps;
 
+
 import com.exito.pageObjects.HomePagePage;
 import net.serenitybdd.core.exceptions.NoSuchElementException;
 import net.thucydides.core.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import static net.serenitybdd.core.Serenity.getDriver;
 
 
-public class HomePageSteps {
+public class HomePageSteps  {
+
+
 
     @Page
     HomePagePage homePagePage;
+
+
 
     @Step("Abrir la pagina de Exito")
     public void openPage(){
@@ -35,8 +41,9 @@ public class HomePageSteps {
 
     @Step("seleccionar una categoria en el menu")
     public void categorieSelect(){
+        Actions actions = new Actions(getDriver());
         homePagePage.getDriver().findElement(homePagePage.getBTN_MENU()).click();
-        homePagePage.getDriver().findElement(homePagePage.getBTN_CATEGORY()).click();
+        actions.moveToElement(homePagePage.getDriver().findElement(homePagePage.getBTN_CATEGORY())).perform();
     }
 
     @Step("seleccionar una subcategoria del menu")
