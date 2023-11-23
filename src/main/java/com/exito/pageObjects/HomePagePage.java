@@ -6,9 +6,9 @@ import org.openqa.selenium.By;
 public class HomePagePage extends PageObject {
 
     private final By BTN_ADVERTISEMENT = By.xpath("//*[@id='wps-overlay-close-button']");
-    private final By BTN_CATEGORY = By.xpath("//li[@id ='undefined-nivel2-Tecnología']");
-    private final By BTN_MENU = By.xpath("//div[@class = 'exito-category-menu-3-x-button']/button");
-    private final By BTN_SUBCATEGORY = By.xpath("//a[@href='/tecnologia/drones']");
+    private final By BTN_CATEGORY = By.xpath("//li//p[starts-with(.,'Tecno')]/ancestor::li");
+    private final By BTN_MENU = By.xpath("//div[@id='category-menu']/ancestor::button");
+    private final By BTN_SUBCATEGORY = By.xpath("//strong[.='Drones']/ancestor::a");
 
     public By getBTN_CATEGORY() {
         return BTN_CATEGORY;

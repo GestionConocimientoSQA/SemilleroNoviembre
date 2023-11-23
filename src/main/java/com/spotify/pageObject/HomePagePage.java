@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class HomePagePage extends PageObject {
 
-    private final By BTN_INICIOSESION = By.xpath("//a[@data-ga-category = 'menu' and @data-ga-action='log-in']");
+    private final By BTN_INICIOSESION = By.xpath("//a[starts-with(text(),'Iniciar')]");
 
     public By getBTN_INICIOSESION() {
         return BTN_INICIOSESION;

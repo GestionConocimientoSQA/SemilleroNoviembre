@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Add cart" skipped="0" tests="1" time="0.31" timestamp="2023-11-20 10:46:50"><testcase name="Add a product from the Exito store to the cart"><error type="java.lang.NullPointerException"/><system-err>null&#13;
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="Add cart" skipped="0" tests="1" time="0.54" timestamp="2023-11-22 06:41:58"><testcase name="Add a product from the Exito store to the cart"><error type="java.lang.NullPointerException"/><system-err>null&#13;
 io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)&#13;
 io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)&#13;
 io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)&#13;
