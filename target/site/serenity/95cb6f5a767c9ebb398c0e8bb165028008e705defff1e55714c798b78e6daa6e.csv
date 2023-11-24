@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
 "Login Spotify","Login successfully in Spotify","PENDING","2023-11-16T18:48:20.63032-05:00[America/Bogota]","0.0","0.26"
+"Add product to cart","Add product to cart success","ERROR","2023-11-24T00:14:54.0999646-05:00[America/Bogota]","0.0","0.44"
 "Add cart","Add a product from the Exito store to the cart","ERROR","2023-11-22T18:41:58.6491123-05:00[America/Bogota]","0.0","0.54"
